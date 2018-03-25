@@ -68,11 +68,11 @@ public class SnackClient {
 
     private void initMenu() {
         // TODO Auto-generated method stub
-        menu = new JMenu("参数设置");
-        lowSpeedItem = new JMenuItem("低等级");
-        midSpeedItem = new JMenuItem("中等级");
-        heightSpeedItem = new JMenuItem("高等级");
-        restartItem=new JMenuItem("重新开始");
+        menu = new JMenu("Level Setting");
+        lowSpeedItem = new JMenuItem("Low Level");
+        midSpeedItem = new JMenuItem("Mid Level");
+        heightSpeedItem = new JMenuItem("High Level");
+        restartItem=new JMenuItem("Restart");
         lowSpeedItem.addActionListener(new ActionListener() {
 
             public void actionPerformed(ActionEvent e) {
